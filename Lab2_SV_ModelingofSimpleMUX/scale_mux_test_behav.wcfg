@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="scale_mux_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="scale_mux_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="40000fs"></ZoomEndTime>
+      <Cursor1Time time="7012fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="311"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/scale_mux_test/in_a" type="array">
+      <obj_property name="ElementShortName">in_a[1:0]</obj_property>
+      <obj_property name="ObjectShortName">in_a[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scale_mux_test/in_b" type="array">
+      <obj_property name="ElementShortName">in_b[1:0]</obj_property>
+      <obj_property name="ObjectShortName">in_b[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scale_mux_test/out" type="array">
+      <obj_property name="ElementShortName">out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scale_mux_test/sel" type="logic">
+      <obj_property name="ElementShortName">sel</obj_property>
+      <obj_property name="ObjectShortName">sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/scale_mux_test/WIDTH" type="array">
+      <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
